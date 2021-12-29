@@ -1,0 +1,30 @@
+const pecas = ['Ar condicionado', 'Motor de Geladeira', 'Microondas'];
+
+var peso = 100;
+
+let Npeca = "Rele PTC";
+
+if(pecas.length <= 10){
+      console.log("O cadastro foi concluído!");
+}
+else{
+      console.log("O limite de peças foi atingido!");
+}
+
+if(peso >= 100){
+      console.log("O peso da peça é adequado!");
+}
+else{
+      console.log("O peso da peça é insuficiente!");
+}
+
+if(Npeca.length > 3){
+      console.log("Cadastro Aprovado!");
+}      
+else{
+      if(Npeca.length == 0){
+              console.log("O nome da peça está adequado!");
+      }       
+      else{
+              console.log("O nome da peça está inadequado!");
+      }
